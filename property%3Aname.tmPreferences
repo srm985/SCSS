@@ -166,6 +166,7 @@
 			<string>text-transform</string>
 			<string>text-wrap</string>
 			<string>top</string>
+			<string>transform</string>
 			<string>unicode-bidi</string>
 			<string>vertical-align</string>
 			<string>visibility</string>
