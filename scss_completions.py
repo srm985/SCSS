@@ -83,6 +83,7 @@ css_data = """
 "text-indent"=<length> | <percentage> | inherit
 "text-transform"=capitalize | uppercase | lowercase | none | inherit
 "top"=<length> | <percentage> | auto | inherit
+"transform"=rotate
 "unicode-bidi"=normal | embed | bidi-override | inherit
 "vertical-align"=baseline | sub | super | top | text-top | middle | bottom | text-bottom | <percentage> | <length> | inherit
 "visibility"=visible | hidden | collapse | inherit
