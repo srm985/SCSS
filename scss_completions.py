@@ -1,15 +1,16 @@
 # Modified from Sublime Text 2 CSS Package
 
-import sublime, sublime_plugin
+import sublime
+import sublime_plugin
 import re
 
 
-common = {  "color": ["rgb($1)", "rgba($1)", "hsl($1)", "hsla($1)", "transparent"],
-            "uri": ["url($1)"],
-            "border-style": ["none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"],
-            "border-width": ["thin", "medium", "thick"],
-            "shape": ["rect($1)"],
-            "generic-family": ["serif", "sans-serif", "cursive", "fantasy", "monospace"] }
+common = {"color": ["rgb($1)", "rgba($1)", "hsl($1)", "hsla($1)", "transparent"],
+          "uri": ["url($1)"],
+          "border-style": ["none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"],
+          "border-width": ["thin", "medium", "thick"],
+          "shape": ["rect($1)"],
+          "generic-family": ["serif", "sans-serif", "cursive", "fantasy", "monospace"]}
 
 css_data = """
 "background-attachment"=scroll | fixed | inherit
@@ -83,7 +84,7 @@ css_data = """
 "text-indent"=<length> | <percentage> | inherit
 "text-transform"=capitalize | uppercase | lowercase | none | inherit
 "top"=<length> | <percentage> | auto | inherit
-"transform"=rotate
+"transform"=rotatee
 "unicode-bidi"=normal | embed | bidi-override | inherit
 "vertical-align"=baseline | sub | super | top | text-top | middle | bottom | text-bottom | <percentage> | <length> | inherit
 "visibility"=visible | hidden | collapse | inherit
@@ -117,6 +118,7 @@ css_data = """
 "box-shadow"=none | <shadow> | none
 """
 
+
 def parse_css_data(data):
     props = {}
     for l in data.splitlines():
@@ -143,6 +145,7 @@ def parse_css_data(data):
 
     return props
 
+
 class SCSSCompletions(sublime_plugin.EventListener):
     props = None
     rex = None
@@ -157,8 +160,8 @@ class SCSSCompletions(sublime_plugin.EventListener):
 
         l = []
         if (view.match_selector(locations[0], "meta.property-value.scss") or
-            # This will catch scenarios like .foo {font-style: |}
-            view.match_selector(locations[0] - 1, "meta.property-value.scss")):
+                # This will catch scenarios like .foo {font-style: |}
+                view.match_selector(locations[0] - 1, "meta.property-value.scss")):
             loc = locations[0] - len(prefix)
             line = view.substr(sublime.Region(view.line(loc).begin(), loc))
 
@@ -168,7 +171,8 @@ class SCSSCompletions(sublime_plugin.EventListener):
                 if prop_name in self.props:
                     values = self.props[prop_name]
 
-                    add_semi_colon = view.substr(sublime.Region(locations[0], locations[0] + 1)) != ';'
+                    add_semi_colon = view.substr(sublime.Region(
+                        locations[0], locations[0] + 1)) != ';'
 
                     for v in values:
                         desc = v
@@ -186,7 +190,8 @@ class SCSSCompletions(sublime_plugin.EventListener):
 
             return None
         else:
-            add_colon = not view.match_selector(locations[0], "meta.property-name.scss")
+            add_colon = not view.match_selector(
+                locations[0], "meta.property-name.scss")
 
             for p in self.props:
                 if add_colon:
