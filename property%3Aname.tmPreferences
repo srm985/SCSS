@@ -10,174 +10,428 @@
 	<dict>
 		<key>completions</key>
 		<array>
-			<string>azimuth</string>
+			<string>align-content</string>
+			<string>align-items</string>
+			<string>align-self</string>
+			<string>alignment-baseline</string>
+			<string>animation</string>
+			<string>animation-composition</string>
+			<string>animation-delay</string>
+			<string>animation-direction</string>
+			<string>animation-duration</string>
+			<string>animation-fill-mode</string>
+			<string>animation-iteration-count</string>
+			<string>animation-name</string>
+			<string>animation-play-state</string>
+			<string>animation-timing-function</string>
+			<string>appearance</string>
+			<string>backface-visibility</string>
 			<string>background-attachment</string>
-			<string>background-break</string>
+			<string>background-blend-mode</string>
 			<string>background-clip</string>
 			<string>background-color</string>
 			<string>background-image</string>
+			<string>background-image-transform</string>
 			<string>background-origin</string>
-			<string>background-position-x</string>
-			<string>background-position-y</string>
 			<string>background-position</string>
 			<string>background-repeat</string>
 			<string>background-size</string>
 			<string>background</string>
-			<string>border-bottom-color</string>
-			<string>border-bottom-image</string>
-			<string>border-bottom-left-image</string>
-			<string>border-bottom-left-radius</string>
-			<string>border-bottom-right-image</string>
-			<string>border-bottom-right-radius</string>
-			<string>border-bottom-style</string>
-			<string>border-bottom-width</string>
-			<string>border-bottom</string>
-			<string>border-break</string>
+			<string>baseline-shift</string>
+			<string>bleed</string>
+			<string>block-inline-size</string>
+			<string>block-step</string>
+			<string>block-step-align</string>
+			<string>block-step-insert</string>
+			<string>block-step-round</string>
+			<string>block-step-size</string>
+			<string>bookmark-label</string>
+			<string>bookmark-level</string>
+			<string>bookmark-state</string>
+			<string>border</string>
+			<string>border-block-inline</string>
+			<string>border-block-inline-color</string>
+			<string>border-block-inline-style</string>
+			<string>border-block-inline-width</string>
+			<string>border-boundary</string>
 			<string>border-collapse</string>
 			<string>border-color</string>
-			<string>border-corner-image</string>
-			<string>border-fit</string>
 			<string>border-image</string>
-			<string>border-left-color</string>
-			<string>border-left-image</string>
-			<string>border-left-style</string>
-			<string>border-left-width</string>
-			<string>border-left</string>
-			<string>border-length</string>
+			<string>border-image-outset</string>
+			<string>border-image-repeat</string>
+			<string>border-image-slice</string>
+			<string>border-image-source</string>
+			<string>border-image-transform</string>
+			<string>border-image-width</string>
 			<string>border-radius</string>
-			<string>border-right-color</string>
-			<string>border-right-image</string>
-			<string>border-right-style</string>
-			<string>border-right-width</string>
-			<string>border-right</string>
 			<string>border-spacing</string>
 			<string>border-style</string>
-			<string>border-top-color</string>
-			<string>border-top-image</string>
-			<string>border-top-left-image</string>
-			<string>border-top-left-radius</string>
-			<string>border-top-right-image</string>
-			<string>border-top-right-radius</string>
-			<string>border-top-style</string>
-			<string>border-top-width</string>
+			<string>border-bottom</string>
+			<string>border-left</string>
+			<string>border-right</string>
 			<string>border-top</string>
 			<string>border-width</string>
-			<string>border</string>
-			<string>bottom</string>
+			<string>box-decoration-break</string>
 			<string>box-shadow</string>
 			<string>box-sizing</string>
+			<string>box-snap</string>
+			<string>break-before-after</string>
+			<string>break-inside</string>
 			<string>caption-side</string>
+			<string>caret-color</string>
+			<string>caret-shape</string>
+			<string>caret</string>
+			<string>chains</string>
 			<string>clear</string>
-			<string>clip</string>
+			<string>clip-path</string>
+			<string>clip-rule</string>
 			<string>color</string>
+			<string>color-adjust</string>
+			<string>color-gamut</string>
+			<string>color-interpolation-filters</string>
+			<string>color-rendering</string>
+			<string>columns</string>
+			<string>column-count</string>
+			<string>column-fill</string>
+			<string>column-rule</string>
+			<string>column-rule-color</string>
+			<string>column-rule-style</string>
+			<string>column-rule-width</string>
+			<string>column-span</string>
+			<string>column-width</string>
+			<string>composes</string>
+			<string>contain</string>
 			<string>content</string>
-			<string>counter-increment</string>
-			<string>counter-reset</string>
-			<string>cue-after</string>
-			<string>cue-before</string>
-			<string>cue</string>
+			<string>continue</string>
+			<string>counter-set-reset-increment</string>
+			<string>cue-before-after</string>
 			<string>cursor</string>
 			<string>direction</string>
 			<string>display</string>
-			<string>elevation</string>
+			<string>dominant-baseline</string>
 			<string>empty-cells</string>
+			<string>fill</string>
+			<string>fill-break</string>
+			<string>fill-color</string>
+			<string>fill-image</string>
+			<string>fill-opacity</string>
+			<string>fill-origin</string>
+			<string>fill-position</string>
+			<string>fill-repeat</string>
+			<string>fill-rule</string>
+			<string>fill-size</string>
+			<string>filter</string>
+			<string>flex</string>
+			<string>flex-basis</string>
+			<string>flex-direction</string>
+			<string>flex-flow</string>
+			<string>flex-shrink-grow</string>
+			<string>flex-wrap</string>
 			<string>float</string>
-			<string>font-effect</string>
-			<string>font-emphasize-position</string>
-			<string>font-emphasize-style</string>
-			<string>font-emphasize</string>
+			<string>float-defer</string>
+			<string>float-offset</string>
+			<string>float-reference</string>
+			<string>flood-color</string>
+			<string>flood-opacity</string>
+			<string>flow</string>
+			<string>flow-from</string>
+			<string>flow-into</string>
+			<string>font</string>
 			<string>font-family</string>
-			<string>font-size-adjust</string>
+			<string>font-feature-settings</string>
+			<string>font-kerning</string>
+			<string>font-language-override</string>
+			<string>font-optical-sizing</string>
+			<string>font-palette</string>
+			<string>font-presentation</string>
 			<string>font-size</string>
-			<string>font-smooth</string>
+			<string>font-size-adjust</string>
 			<string>font-stretch</string>
 			<string>font-style</string>
+			<string>font-synthesis</string>
 			<string>font-variant</string>
+			<string>font-variant-alternates</string>
+			<string>font-variant-caps</string>
+			<string>font-variant-east-asian</string>
+			<string>font-variant-ligatures</string>
+			<string>font-variant-numeric</string>
+			<string>font-variant-position</string>
+			<string>font-variation-settings</string>
 			<string>font-weight</string>
-			<string>font</string>
+			<string>footnote-display</string>
+			<string>footnote-policy</string>
+			<string>grid</string>
+			<string>grid-row-column-area</string>
+			<string>grid-row-column-gap</string>
+			<string>grid-auto-flow</string>
+			<string>grid-auto-rows-columns</string>
+			<string>grid-template-areas</string>
+			<string>grid-template-rows-columns</string>
+			<string>grid-template</string>
+			<string>hanging-punctuation</string>
 			<string>height</string>
-			<string>left</string>
+			<string>hover</string>
+			<string>hyphenate-character</string>
+			<string>hyphenate-limit-chars</string>
+			<string>hyphenate-limit-last</string>
+			<string>hyphenate-limit-lines</string>
+			<string>hyphenate-limit-zone</string>
+			<string>hyphens</string>
+			<string>image-orientation</string>
+			<string>image-rendering</string>
+			<string>image-resolution</string>
+			<string>initial-letter</string>
+			<string>initial-letter-align</string>
+			<string>initial-letter-wrap</string>
+			<string>inset-block-inline</string>
+			<string>inverted-colors</string>
+			<string>isolation</string>
+			<string>justify-content</string>
+			<string>justify-items</string>
+			<string>justify-self</string>
 			<string>letter-spacing</string>
+			<string>light-level</string>
+			<string>lighting-color</string>
+			<string>line-break</string>
+			<string>line-grid</string>
 			<string>line-height</string>
+			<string>line-height-step</string>
+			<string>line-snap</string>
+			<string>list-style</string>
 			<string>list-style-image</string>
 			<string>list-style-position</string>
 			<string>list-style-type</string>
-			<string>list-style</string>
-			<string>margin-bottom</string>
-			<string>margin-left</string>
-			<string>margin-right</string>
-			<string>margin-top</string>
 			<string>margin</string>
-			<string>marker-offset</string>
+			<string>margin-block-inline</string>
+			<string>marker</string>
+			<string>marker-knockout</string>
+			<string>marker-pattern</string>
+			<string>marker-end</string>
+			<string>marker-mid</string>
+			<string>marker-segment</string>
+			<string>marker-start</string>
+			<string>marker-side</string>
 			<string>marks</string>
-			<string>max-height</string>
-			<string>max-width</string>
-			<string>min-height</string>
-			<string>min-width</string>
+			<string>mask</string>
+			<string>mask-border</string>
+			<string>mask-border-mode</string>
+			<string>mask-border-outset</string>
+			<string>mask-border-repeat</string>
+			<string>mask-border-slice</string>
+			<string>mask-border-source</string>
+			<string>mask-border-width</string>
+			<string>mask-clip</string>
+			<string>mask-composite</string>
+			<string>mask-image</string>
+			<string>mask-mode</string>
+			<string>mask-origin</string>
+			<string>mask-position</string>
+			<string>mask-repeat</string>
+			<string>mask-size</string>
+			<string>mask-type</string>
+			<string>max-lines</string>
+			<string>media-feature-grid</string>
+			<string>mix-blend-mode</string>
+			<string>monochrome-color-index</string>
+			<string>motion</string>
+			<string>motion-offset</string>
+			<string>motion-path</string>
+			<string>motion-rotation</string>
+			<string>nav-down</string>
+			<string>nav-left</string>
+			<string>nav-right</string>
+			<string>nav-up</string>
+			<string>object-fit</string>
+			<string>object-position</string>
+			<string>offset</string>
+			<string>offset-anchor</string>
+			<string>offset-distance</string>
+			<string>offset-path</string>
+			<string>offset-position</string>
+			<string>offset-rotate</string>
+			<string>offset-after</string>
+			<string>offset-before</string>
+			<string>offset-end</string>
+			<string>offset-start</string>
 			<string>opacity</string>
-			<string>orphans</string>
+			<string>order</string>
+			<string>orientation</string>
+			<string>outline</string>
 			<string>outline-color</string>
 			<string>outline-offset</string>
 			<string>outline-style</string>
 			<string>outline-width</string>
-			<string>outline</string>
-			<string>overflow-style</string>
-			<string>overflow-x</string>
-			<string>overflow-y</string>
 			<string>overflow</string>
-			<string>padding-bottom</string>
-			<string>padding-left</string>
-			<string>padding-right</string>
-			<string>padding-top</string>
+			<string>overflow-block</string>
+			<string>overflow-inline</string>
+			<string>overflow-wrap</string>
+			<string>overflow-x-y</string>
 			<string>padding</string>
-			<string>page-break-after</string>
-			<string>page-break-before</string>
-			<string>page-break-inside</string>
+			<string>padding-block-inline</string>
 			<string>page</string>
-			<string>pause-after</string>
-			<string>pause-before</string>
+			<string>page-break-before-after</string>
+			<string>page-break-inside</string>
+			<string>paint-order</string>
 			<string>pause</string>
-			<string>pitch-range</string>
-			<string>play-during</string>
-			<string>pitch</string>
+			<string>perspective</string>
+			<string>perspective-origin</string>
+			<string>place-content</string>
+			<string>place-self</string>
+			<string>pointer</string>
+			<string>pointer-events</string>
+			<string>polar-anchor</string>
+			<string>polar-angle</string>
+			<string>polar-distance</string>
+			<string>polar-origin</string>
 			<string>position</string>
+			<string>presentation-level</string>
 			<string>quotes</string>
+			<string>region-fragment</string>
 			<string>resize</string>
-			<string>richness</string>
-			<string>right</string>
+			<string>resolution</string>
+			<string>rest</string>
+			<string>rotation</string>
+			<string>rotation-point</string>
+			<string>ruby-align</string>
+			<string>ruby-merge</string>
+			<string>ruby-position</string>
+			<string>running</string>
+			<string>scan</string>
+			<string>scripting</string>
+			<string>scroll-behavior</string>
+			<string>scroll-padding</string>
+			<string>scroll-padding-block</string>
+			<string>scroll-padding-block-end</string>
+			<string>scroll-padding-block-start</string>
+			<string>scroll-padding-bottom</string>
+			<string>scroll-padding-inline</string>
+			<string>scroll-padding-inline-end</string>
+			<string>scroll-padding-inline-start</string>
+			<string>scroll-padding-left</string>
+			<string>scroll-padding-right</string>
+			<string>scroll-padding-top</string>
+			<string>scroll-snap-align</string>
+			<string>scroll-snap-margin</string>
+			<string>scroll-snap-margin-block</string>
+			<string>scroll-block</string>
+			<string>scroll-end</string>
+			<string>scroll-margin</string>
+			<string>scroll-snap</string>
+			<string>scroll-block</string>
+			<string>scroll-margin</string>
+			<string>scroll-snap</string>
+			<string>scroll-start</string>
+			<string>scroll-snap-margin-bottom</string>
+			<string>scroll-snap-margin-inline</string>
+			<string>scroll-end</string>
+			<string>scroll-inline</string>
+			<string>scroll-margin</string>
+			<string>scroll-snap</string>
+			<string>scroll-inline</string>
+			<string>scroll-margin</string>
+			<string>scroll-snap</string>
+			<string>scroll-start</string>
+			<string>scroll-snap-margin-left</string>
+			<string>scroll-snap-margin-right</string>
+			<string>scroll-snap-margin-top</string>
+			<string>scroll-snap-stop</string>
+			<string>scroll-snap-type</string>
+			<string>shape-image-threshold</string>
+			<string>shape-inside</string>
+			<string>shape-margin</string>
+			<string>shape-outside</string>
+			<string>shape-rendering</string>
 			<string>size</string>
-			<string>speak-header</string>
-			<string>speak-numeral</string>
-			<string>speak-punctuation</string>
 			<string>speak</string>
-			<string>speech-rate</string>
-			<string>stress</string>
+			<string>speak-as</string>
+			<string>stop-color</string>
+			<string>stop-opacity</string>
+			<string>string-set</string>
+			<string>stroke</string>
+			<string>stroke-align</string>
+			<string>stroke-alignment</string>
+			<string>stroke-break</string>
+			<string>stroke-color</string>
+			<string>stroke-dashadjust</string>
+			<string>stroke-dasharray</string>
+			<string>stroke-dash-corner</string>
+			<string>stroke-dashcorner</string>
+			<string>stroke-dash-justify</string>
+			<string>stroke-dashoffset</string>
+			<string>stroke-image</string>
+			<string>stroke-linecap</string>
+			<string>stroke-linejoin</string>
+			<string>stroke-miterlimit</string>
+			<string>stroke-opacity</string>
+			<string>stroke-origin</string>
+			<string>stroke-position</string>
+			<string>stroke-repeat</string>
+			<string>stroke-width</string>
+			<string>tab-size</string>
 			<string>table-layout</string>
-			<string>text-align-last</string>
 			<string>text-align</string>
+			<string>text-align-all</string>
+			<string>text-align-last</string>
+			<string>text-anchor</string>
+			<string>text-combine-upright</string>
 			<string>text-decoration</string>
+			<string>text-decoration-color</string>
+			<string>text-decoration-line</string>
+			<string>text-decoration-skip</string>
+			<string>text-decoration-style</string>
 			<string>text-emphasis</string>
-			<string>text-height</string>
+			<string>text-emphasis-color</string>
+			<string>text-emphasis-position</string>
+			<string>text-emphasis-style</string>
 			<string>text-indent</string>
 			<string>text-justify</string>
-			<string>text-outline</string>
-			<string>text-replace</string>
+			<string>text-orientation</string>
+			<string>text-overflow</string>
+			<string>text-rendering</string>
 			<string>text-shadow</string>
+			<string>text-size-adjust</string>
+			<string>text-space-collapse</string>
+			<string>text-space-trim</string>
+			<string>text-spacing</string>
 			<string>text-transform</string>
+			<string>text-underline-position</string>
 			<string>text-wrap</string>
-			<string>top</string>
+			<string>top-right-left-bottom</string>
+			<string>transform</string>
+			<string>transform-box</string>
+			<string>transform-origin</string>
+			<string>transform-style</string>
+			<string>transition</string>
+			<string>transition-delay</string>
+			<string>transition-duration</string>
+			<string>transition-property</string>
+			<string>transition-timing-function</string>
 			<string>unicode-bidi</string>
+			<string>update</string>
+			<string>user-select</string>
+			<string>vector-effect</string>
 			<string>vertical-align</string>
 			<string>visibility</string>
+			<string>voice-balance</string>
+			<string>voice-duration</string>
 			<string>voice-family</string>
-			<string>volume</string>
-			<string>white-space-collapse</string>
+			<string>voice-range-pitch</string>
+			<string>voice-rate</string>
+			<string>voice-stress</string>
+			<string>voice-volume</string>
 			<string>white-space</string>
-			<string>widows</string>
+			<string>widows-orphans</string>
 			<string>width</string>
+			<string>width-height</string>
+			<string>will-change</string>
 			<string>word-break</string>
 			<string>word-spacing</string>
 			<string>word-wrap</string>
+			<string>wrap-before-after</string>
+			<string>wrap-flow</string>
+			<string>wrap-inside</string>
+			<string>wrap-through</string>
+			<string>writing-mode</string>
 			<string>z-index</string>
 		</array>
 	</dict>
